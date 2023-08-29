@@ -1,0 +1,82 @@
+/* Add your styling here */
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    padding: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #d4d4d4;
+}
+
+.operator {
+    background-color: #ffa500;
+    color: white;
+}
+
+#btnEquals {
+    background-color: #008CBA;
+    color: white;
+    grid-column: span 2;
+}
+
+#btnClear {
+    background-color: #f44336;
+    color: white;
+}
+
+#btnBackspace,
+#btnParenthesisOpen,
+#btnParenthesisClose {
+    background-color: #808080;
+    color: white;
+}
+/* Add your styling here */
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    padding: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.calculator-display {
+    grid-column: span 4;
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: right;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.button {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* ... (rest of the styling) ... */
